@@ -1,0 +1,129 @@
+# ==============================================
+# ENVIRONMENT & SECRETS
+# ==============================================
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+*.p12
+secrets/
+config.json
+
+# ==============================================
+# PYTHON
+# ==============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.pyc
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# ==============================================
+# VIRTUAL ENVIRONMENTS
+# ==============================================
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.virtualenv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==============================================
+# DATABASES & DATA FILES
+# ==============================================
+*.db
+*.sqlite
+*.sqlite3
+app.db
+chromadb_data/
+*.csv
+*.json
+data/
+logs/
+*.log
+*.log.*
+
+# ==============================================
+# TEMPORARY FILES
+# ==============================================
+*.tmp
+*.temp
+.tmp/
+.temp/
+.cache/
+
+# ==============================================
+# IDE & EDITOR FILES
+# ==============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+
+# ==============================================
+# DOCKER
+# ==============================================
+docker-compose.override.yml
+
+# ==============================================
+# MONITORING & LOGS
+# ==============================================
+logs/
+*.log
+*.log.*
+monitoring/
+
+# ==============================================
+# USER UPLOADS & GENERATED CONTENT
+# ==============================================
+uploads/
+generated/
+charts/
+pdfs/
+images/
+*.pdf
+
+# ==============================================
+# MISC
+# ==============================================
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json

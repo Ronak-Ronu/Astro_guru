@@ -1,0 +1,15 @@
+.git
+.gitignore
+.venv
+/__pycache__
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+.env
+Dockerfile
+docker-compose.yml
+chromadb_data
+tmp_charts
+ephe
+*.log
